@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [
     react({
       babel: {
+         base: '/react-form/',
         plugins: [['babel-plugin-react-compiler']],
-         base: '/react-form/'
       },
     }),
   ],
